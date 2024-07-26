@@ -14,9 +14,8 @@ const UserRoute = () => {
             body: JSON.stringify({ firstName, SecName, password, email })
         })
         res = await res.json()
-        if (res.success) {
-            alert("User created")
-        }
+        alert("User created")
+        
     }
     return (
         <div className={styles.bg}>

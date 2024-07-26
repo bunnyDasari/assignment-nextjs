@@ -15,7 +15,7 @@ const UserRoute = () => {
         })
         res = await res.json()
         if (res.success) {
-            alert(`User created with firstname :${firstName} `)
+            alert("User created")
         }
     }
     return (

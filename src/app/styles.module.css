@@ -1,0 +1,13 @@
+.bg{
+    text-align: center;
+    padding: 90px;
+    margin: 70px;
+
+}
+
+.btn{
+    height: 50px;
+    width: 100px;
+    margin: 70px;
+    font-size: larger;
+}
